@@ -208,3 +208,97 @@ p{
 .option-2.closeoption{
     transform: translateX(0%);
 }
+
+@media (max-width: 768px){
+    .container{
+    background-color: #0f0d0d;
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    position: relative;
+    transform-origin: top left;
+    transition: 0.3s ease;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.element{
+    max-width: 100%;
+    height: 38rem;
+    overflow:  auto;
+    border-radius: 16px 16px 0 16PX;
+    position: relative;
+}
+.img{
+    max-width: 100%;
+}
+.h1{
+    position: absolute;
+    color: white;
+    top: 10%;
+    height: 1rem;
+    top: 2%;
+    left: 5%;
+    background-color: transparent;
+}
+h3{
+    font-size: 5px;
+    color: white;
+    position: absolute;
+    top: 11%;
+}
+h5{
+    font-size: 4px;
+    color: white;
+    position: absolute;
+    top: 37%;
+}
+h6{
+    font-size: 6px;
+    color: white;
+    margin-top: 2rem;
+}
+h2{
+    color: white;
+    position: absolute;
+    top: 54%;
+    right: 2%;
+    font-size: 20px;
+}
+.element{
+    max-width: 100%;
+    height: 20rem;
+    overflow:  auto;
+    border-radius: 16px 16px 0 16PX;
+    position: relative;
+}
+.inside-div{
+    background-color: rgb(36, 36, 36);
+    height: 10rem;
+    width: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.inside-child{
+    height: 70%;
+    align-self: center;
+    border-radius: 5% 5% 5% 5%;
+    overflow: hidden;
+}
+.inside-child-2{
+    height: 70%;
+    border: 1px solid white;
+    align-self: center;
+    border-radius: 5% 5% 5% 5%;
+    overflow: hidden;
+}
+.inner-img {
+    height: 100%;
+    width: 100%;
+}
+}
