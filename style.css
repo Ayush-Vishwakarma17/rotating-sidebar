@@ -5,8 +5,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow: hidden;
 }
-
-
 .container{
     background-color: #0f0d0dd9;
     height: 100vh;
@@ -90,12 +88,12 @@ h2{
 .circle{
     height: 200px;
     width: 200px;
-    background-color: rgb(141, 249, 255);
+    background-color: rgb(147, 247, 252);
     border-radius: 100px;
     position: fixed;
     top: -100px;
     left: -100px;
-    z-index: 1;
+    z-index: 99;
     transition: 0.3s ease;
     
 }
@@ -109,8 +107,8 @@ h2{
 }
 .close{
     position: absolute;
-    top: 60%;
-    left: 20%;
+    top: 64%;
+    left: 25%;
     color: rgb(0, 0, 0);
     height: 20px;
     width: 20px;
@@ -118,7 +116,13 @@ h2{
 .container.shownav{
     transform: rotate(-10deg);
 }
-.container-2{
-    height: 100vh;
-    background-color: yellow;
+.circle.rotate{
+    transform: rotate(-90deg);
+    background-color: rgb(210, 162, 255);
+}
+.circle.rotateBack{
+    transform: rotate(0deg);
+}
+.container.closenav{
+    transform: rotate(0deg);
 }
